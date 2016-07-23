@@ -3,59 +3,105 @@
 <head>
     <meta charset="utf-8">
     <title>RAN | Nikhil Gupta's Profile Page</title>
-    <link rel="shortcut icon" href="image/index.png">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nikhil Gupta's Profile Page" />
+    <meta name="author" content="Nikhil Gupta">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap Latest compiled and minified CSS -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Angular JS library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <!-- Bootstrap and Jquery Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/homepage.css">
-	<script type="text/javascript" src="js/brain.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Javascripts -->
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body onload()>
+<body>
+	<!-- Navbar -->
+	<div class="navbar-wrapper cbp-af-header">
+        <div class="overlay">
+            <div class="navbar cbp-af-inner" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1><a class="navbar-brand scroll" href="#">NIKHIL GUPTA</a></h1>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	
 	<!-- Navbar -->
-	<div>
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">RAN</a>
-				</div>
-				<div class="navbar-collapse collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="text-center"><a href="#home">Home</a></li>
-						<li class="text-center"><a href="#profile">Profile</a></li>
-						<li class="text-center"><a href="#contact">Contact</a></li>
+	<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">RAN</a>
+			</div>
+			<div class="navbar-collapse collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="text-center"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+					<li class="text-center"><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+					<li class="text-center"><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav> -->
+	<div class="container">
+		
+	</div>
+	<div class="container">
+		
+	</div>
+	<div class="container">
+		
+	</div>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<ul>
+						<li>
+							<a href="https://twitter.com/nikhilgupta0081" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/nikhil.DTU" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+						</li>
+						<li>
+							<a href="https://in.linkedin.com/in/nikhil-gupta-5b8a6497" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a>
+						</li>
+						<li>
+							<a href="https://github.com/nikhilgupta240" target="_blank"><img src="images/github.png" alt="github"></a>
+						</li>
 					</ul>
+					<p>Copyright &copy;<span> 2016 Nikhil Gupta. All rights reserved.</span></p>
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<!-- Home -->
-	<div id="home" class="container-fluid">
-		<div class="col-sm-4 column">
-			<canvas id="profilePic" alt="Nikhil Gupta"></canvas>
-		</div>
-		<div class="col-sm-8 text-center">
-			<p><h2>Hey! there</h2><h2> I am Nikhil Gupta </h2><h2> I am a Software Developer</h2></p>
-		</div>
-	</div>
-
-	<!-- Profile -->
-	<div id="profile" class="container-fluid">
-	</div>
-
-	<!-- Contact -->
-	<div id="contact" class="container-fluid"></div>
-</body>
+	</footer>
+</body>	
 </html>

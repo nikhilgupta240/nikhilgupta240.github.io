@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>RAN | Nikhil Gupta's Profile Page</title>
+    <link rel="shortcut icon" href="image/index.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<script type="text/javascript" src="js/brain.js"></script>
+</head>
+<body onload()>
+	
+	<!-- Navbar -->
+	<div>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">RAN</a>
+				</div>
+				<div class="navbar-collapse collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="text-center"><a href="#home">Home</a></li>
+						<li class="text-center"><a href="#profile">Profile</a></li>
+						<li class="text-center"><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Home -->
+	<div id="home" class="container-fluid">
+		<div class="col-sm-4 column">
+			<canvas id="profilePic" alt="Nikhil Gupta"></canvas>
+		</div>
+		<div class="col-sm-8 text-center">
+			<p><h2>Hey! there</h2><h2> I am Nikhil Gupta </h2><h2> I am a Software Developer</h2></p>
+		</div>
+	</div>
+
+	<!-- Profile -->
+	<div id="profile" class="container-fluid">
+	</div>
+
+	<!-- Contact -->
+	<div id="contact" class="container-fluid"></div>
+</body>
+</html>

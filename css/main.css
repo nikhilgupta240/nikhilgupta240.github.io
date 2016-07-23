@@ -1,0 +1,30 @@
+h1,h2{
+	color: #cfcfcf;
+}
+
+.footer {
+	background-color: #444;
+}
+
+.footer ul{	
+	list-style-type: none;
+}
+.footer li{
+	margin: 8px;
+	display: inline;
+}
+
+.footer img{
+	height: 48px;
+	width: 48px;
+}
+
+.footer img:hover{
+	background-color: #fff;
+}
+
+.footer p{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #eee;
+}
