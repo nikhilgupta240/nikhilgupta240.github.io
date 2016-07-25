@@ -11,18 +11,21 @@
     <link rel="shortcut icon" href="images/favicon.png">
 
     <!-- Angular JS library -->
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/angular.min.js"></script>
 
     <!-- Bootstrap and Jquery Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/component.css">
 
 	<!-- Javascripts -->
 	<script type="text/javascript" src="js/main.js"></script>
+
+	<script type="text/javascript" src="js/modernizr.custom.js"></script>
 </head>
 <body>
 	<!-- Google Analytics -->
@@ -34,7 +37,6 @@
 
 	  ga('create', 'UA-81265022-1', 'auto');
 	  ga('send', 'pageview');
-
 	</script>
 	<!-- Navbar -->
 	<div class="navbar-wrapper cbp-af-header">
@@ -48,49 +50,47 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <h1><a class="navbar-brand scroll" href="#">NIKHIL GUPTA</a></h1>
+                        <h1><a class="navbar-brand scroll" href="#home">NIKHIL GUPTA</a></h1>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav pull-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                            <li><a href="#profile"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                            <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                            <li><a href="#work"><span class="glyphicon glyphicon-file">MyWork</span></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	
-	<!-- Navbar -->
-	<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">RAN</a>
-			</div>
-			<div class="navbar-collapse collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="text-center"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-					<li class="text-center"><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
-					<li class="text-center"><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-				</ul>
+
+	<!-- About me -->
+	<section id="home">
+		<div class="container-fluid">
+			<div class="container homeData">
+				<div class="col-xs-6">
+					<img id="profilePic" src="images/nikhil_gupta.jpg" alt="Nikhil Gupta">
+				</div>
+				<div class="col-xs-6">
+					<h2>Hey, My name is Nikhil Gupta<br/>I'm a Software Developer<br/>I love cars</h2>
+				</div>
 			</div>
 		</div>
-	</nav> -->
-	<div class="container">
-		
-	</div>
-	<div class="container">
-		
-	</div>
-	<div class="container">
-		
-	</div>
+	</section>
+
+	<!-- Profile -->
+	<section id="profile">
+		<div class="container">
+			<!-- <img src="images/nikhil_gupta.jpg" alt="Nikhil Gupta"> -->
+		</div>
+	</section>
+
+	<!-- My work -->
+	<section id="work">
+		<div class="container">
+			
+		</div>
+	</section>
 	<footer id="footer" class="footer">
 		<div class="container">
 			<div class="row">
@@ -114,5 +114,7 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>
 </body>	
 </html>
